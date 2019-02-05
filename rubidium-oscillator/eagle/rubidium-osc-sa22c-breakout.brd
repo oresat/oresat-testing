@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="2" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="2" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1879,14 +1879,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$4">
 <contactref element="J1" pad="13"/>
 <contactref element="X2" pad="1"/>
-<wire x1="7.083" y1="18.352" x2="8.446" y2="18.352" width="0.6096" layer="1"/>
-<wire x1="8.446" y1="18.352" x2="8.89" y2="18.796" width="0.6096" layer="1"/>
 <via x="8.89" y="18.796" extent="1-16" drill="0.35"/>
 <wire x1="23.368" y1="19.304" x2="9.398" y2="19.304" width="0.6096" layer="16"/>
 <wire x1="8.89" y1="18.796" x2="9.398" y2="19.304" width="0.6096" layer="16"/>
 <wire x1="23.368" y1="19.304" x2="32.258" y2="10.414" width="0.6096" layer="16"/>
 <wire x1="32.258" y1="10.414" x2="32.258" y2="-14.986" width="0.6096" layer="16"/>
-<wire x1="7.083" y1="18.352" x2="6.829" y2="18.352" width="0" layer="19" extent="1-1"/>
+<wire x1="6.829" y1="18.352" x2="8.446" y2="18.352" width="0.6096" layer="1"/>
+<wire x1="8.446" y1="18.352" x2="8.89" y2="18.796" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="J1" pad="16"/>
@@ -1961,18 +1960,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="23,1,f9d906370606f9e8"/>
-<approved hash="23,1,ffc923271e94c27a"/>
-<approved hash="23,1,83a4ac4aae7c8192"/>
-<approved hash="23,1,02c9e327e03701d9"/>
-<approved hash="23,1,3e99c2e1c2e63e9e"/>
-<approved hash="23,1,d457ef67e963d253"/>
-<approved hash="23,1,33e2a8d2a6553d65"/>
-<approved hash="23,1,3cda7a227aeb3c13"/>
-<approved hash="23,1,29bcb6528be4140a"/>
-<approved hash="23,1,5a92706071205bd2"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
