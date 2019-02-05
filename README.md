@@ -8,4 +8,8 @@ A place for all aspects of OreSat CubeSat testing
 * Vibration
 * RF anechoic chamber
 
+### RF Test equipment
 
+* 10 MHz Rubidium Oscillator Standard
+* GPS Disciplined Oscillator Standard
+* Noise Source
