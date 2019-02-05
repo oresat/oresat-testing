@@ -8967,6 +8967,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="177.8" y="25.4" size="3.81" layer="97">Rubidium Oscillator SA.22c Breakout</text>
 <text x="157.48" y="66.04" size="1.778" layer="97">LED_GREEN</text>
 <text x="157.48" y="76.2" size="1.778" layer="97">LED_RED</text>
+<text x="91.44" y="48.26" size="1.778" layer="97">NOTE: Service and Lock are active low.</text>
 </plain>
 <instances>
 <instance part="X1" gate="-1" x="119.38" y="175.26" smashed="yes">
