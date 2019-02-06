@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -1094,6 +1094,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <library name="J-Samtec-TMMH-1XX-XX-XX-DV-XXX-XXX">
 <packages>
 <package name="TMMH-109-XX-XX-DV-ES-A">
+<description>&lt;b&gt;2.00 mm&lt;/b&gt; SMT Header&lt;p&gt;
+
+Source: &lt;a href="https://www.samtec.com/products/tmmh-109-01-g-dv-es-a"&gt;Samtec TMMH-109-01-G-DV-ES-A&lt;/a&gt;</description>
 <smd name="1" x="-8" y="-2.315" dx="1.016" dy="2.94" layer="1"/>
 <smd name="2" x="-8" y="2.315" dx="1.016" dy="2.94" layer="1"/>
 <smd name="3" x="-6" y="-2.315" dx="1.016" dy="2.94" layer="1"/>
@@ -1147,11 +1150,30 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pin name="LOCK" x="0" y="-12.7" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="1PPS_IN" x="0" y="-2.54" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="DOUT" x="0" y="7.62" length="short" direction="pas" function="dot" rot="R180"/>
+<text x="-43.18" y="-25.4" size="1.778" layer="95">Pinout:
+1 - GND
+2 - +15V
+3 - GND
+4 - +15V
+5 - Freq Ctrl
+6 - +5V
+7 - 1PPS Out
+8 - GND
+9 - FACMOS
+10 - GND
+11 - GND
+12 - Service
+13 - DIN
+14 - LOCK
+15 - 1PPS In
+16 - DOUT
+17 - N.C.
+18 - N.C.</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="OSC_TMMH-109-01-G-DV-ES-A" prefix="J">
-<description>Samtec connector for SA.22c rubidium oscillator</description>
+<description>&lt;b&gt;Samtec connector for SA.22c rubidium oscillator&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="OSC_TMMH-109-01-G-DV-ES-A" x="0" y="2.54"/>
 </gates>
@@ -8949,24 +8971,26 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="FDN360P" device="" package3d_urn="urn:adsk.eagle:package:29529/2"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k"/>
-<part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="FDN360P" device="" package3d_urn="urn:adsk.eagle:package:29529/2"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.6k"/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device="" value="+15.0V"/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device="" value="+15.0V"/>
+<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="FDN360P" device="" package3d_urn="urn:adsk.eagle:package:29529/2" value="ZXMP10A13F"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="560"/>
+<part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="FDN360P" device="" package3d_urn="urn:adsk.eagle:package:29529/2" value="ZXMP10A13F"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="X3" library="con-phoenix-254" library_urn="urn:adsk.eagle:library:172" deviceset="MPT6" device="" package3d_urn="urn:adsk.eagle:package:9318/1" value="MPT6"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+5.0V"/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+5.0V"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="177.8" y="25.4" size="3.81" layer="97">Rubidium Oscillator SA.22c Breakout</text>
-<text x="157.48" y="66.04" size="1.778" layer="97">LED_GREEN</text>
-<text x="157.48" y="76.2" size="1.778" layer="97">LED_RED</text>
+<text x="157.48" y="64.77" size="1.778" layer="97">GREEN LED ~ 3.4V
+R = 560 for ~3mA</text>
+<text x="157.48" y="74.93" size="1.778" layer="97">RED LED ~ 2.1V
+R = 1k for ~3mA</text>
 <text x="91.44" y="48.26" size="1.778" layer="97">NOTE: Service and Lock are active low.</text>
 </plain>
 <instances>
@@ -9035,13 +9059,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="GND5" gate="1" x="142.24" y="58.42" smashed="yes">
 <attribute name="VALUE" x="139.7" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="88.9" y="71.12" smashed="yes">
-<attribute name="NAME" x="95.25" y="73.66" size="1.778" layer="95"/>
-<attribute name="VALUE" x="95.25" y="71.12" size="1.778" layer="96"/>
+<instance part="Q1" gate="G$1" x="86.36" y="71.12" smashed="yes">
+<attribute name="NAME" x="92.71" y="73.66" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="71.12" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="91.44" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="89.9414" y="57.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="94.742" y="57.15" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="G$1" x="88.9" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.4014" y="57.15" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="92.202" y="57.15" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q2" gate="G$1" x="111.76" y="71.12" smashed="yes">
 <attribute name="NAME" x="118.11" y="73.66" size="1.778" layer="95"/>
@@ -9050,12 +9074,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R2" gate="G$1" x="114.3" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="112.8014" y="57.15" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="117.602" y="57.15" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+3" gate="1" x="91.44" y="78.74" smashed="yes">
-<attribute name="VALUE" x="94.488" y="83.312" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+4" gate="1" x="114.3" y="78.74" smashed="yes">
-<attribute name="VALUE" x="117.348" y="83.312" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X3" gate="-1" x="147.32" y="88.9" smashed="yes">
 <attribute name="NAME" x="150.876" y="88.265" size="1.778" layer="95"/>
@@ -9089,6 +9107,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </instance>
 <instance part="GND7" gate="1" x="86.36" y="154.94" smashed="yes">
 <attribute name="VALUE" x="83.82" y="152.4" size="1.778" layer="96"/>
+</instance>
+<instance part="P+3" gate="1" x="88.9" y="81.28" smashed="yes">
+<attribute name="VALUE" x="92.456" y="83.566" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+4" gate="1" x="114.3" y="81.28" smashed="yes">
+<attribute name="VALUE" x="117.856" y="83.566" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -9170,14 +9194,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="111.76" y1="160.02" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
 <junction x="104.14" y="160.02"/>
 </segment>
-<segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<pinref part="P+3" gate="1" pin="+15V"/>
-</segment>
-<segment>
-<pinref part="Q2" gate="G$1" pin="S"/>
-<pinref part="P+4" gate="1" pin="+15V"/>
-</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -9195,6 +9211,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="109.22" y1="165.1" x2="96.52" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="165.1" x2="91.44" y2="165.1" width="0.1524" layer="91"/>
 <junction x="109.22" y="165.1"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="88.9" y1="78.74" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+4" gate="1" pin="+5V"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
+<wire x1="114.3" y1="78.74" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="1">
@@ -9267,10 +9293,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="J1" gate="G$1" pin="LOCK"/>
 <wire x1="96.52" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="127" y1="106.68" x2="127" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="127" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="88.9" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="127" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="88.9" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="83.82" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -9298,8 +9324,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="55.88" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="50.8" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="55.88" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="50.8" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="X3" gate="-5" pin="1"/>
 <wire x1="134.62" y1="50.8" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
@@ -9309,11 +9335,17 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </sheet>
 </sheets>
 <errors>
+<approved hash="110,1,109.22,160.02,+5V,+15V,,,,"/>
+<approved hash="110,1,109.22,160.02,+5V,+15V,,,,"/>
 <approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

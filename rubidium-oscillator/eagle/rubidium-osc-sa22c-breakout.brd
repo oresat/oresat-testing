@@ -104,6 +104,9 @@
 <library name="J-Samtec-TMMH-1XX-XX-XX-DV-XXX-XXX">
 <packages>
 <package name="TMMH-109-XX-XX-DV-ES-A">
+<description>&lt;b&gt;2.00 mm&lt;/b&gt; SMT Header&lt;p&gt;
+
+Source: &lt;a href="https://www.samtec.com/products/tmmh-109-01-g-dv-es-a"&gt;Samtec TMMH-109-01-G-DV-ES-A&lt;/a&gt;</description>
 <smd name="1" x="-8" y="-2.315" dx="1.016" dy="2.94" layer="1"/>
 <smd name="2" x="-8" y="2.315" dx="1.016" dy="2.94" layer="1"/>
 <smd name="3" x="-6" y="-2.315" dx="1.016" dy="2.94" layer="1"/>
@@ -1705,17 +1708,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="J1" library="J-Samtec-TMMH-1XX-XX-XX-DV-XXX-XXX" package="TMMH-109-XX-XX-DV-ES-A" value="OSC_TMMH-109-01-G-DV-ES-A" x="9.144" y="22.352" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.044" y="12.452" size="1.4224" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="SUPER-SOT3" package3d_urn="urn:adsk.eagle:package:29529/2" value="FDN360P" x="36.576" y="20.574" smashed="yes" rot="R270">
+<element name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="SUPER-SOT3" package3d_urn="urn:adsk.eagle:package:29529/2" value="ZXMP10A13F" x="36.576" y="20.574" smashed="yes" rot="R270">
 <attribute name="NAME" x="32.988" y="21.562" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="SUPER-SOT3" package3d_urn="urn:adsk.eagle:package:29529/2" value="FDN360P" x="36.576" y="25.146" smashed="yes" rot="R270">
+<element name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="SUPER-SOT3" package3d_urn="urn:adsk.eagle:package:29529/2" value="ZXMP10A13F" x="36.576" y="25.146" smashed="yes" rot="R270">
 <attribute name="NAME" x="32.988" y="26.388" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k" x="41.402" y="20.574" smashed="yes" rot="R180">
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="560" x="41.402" y="20.574" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.5704" y="19.4056" size="1.27" layer="25" rot="SR180"/>
 <attribute name="SPICEPREFIX" value="R" x="-19.558" y="92.964" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.6k" x="41.402" y="25.146" smashed="yes" rot="R180">
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k" x="41.402" y="25.146" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.672" y="23.9268" size="1.27" layer="25" rot="SR180"/>
 <attribute name="SPICEPREFIX" value="R" x="24.892" y="105.156" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -1802,27 +1805,59 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="49.784" y="-18.288"/>
 <vertex x="49.784" y="38.354"/>
 </polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="43.815" y="12.827"/>
+<vertex x="43.815" y="9.017"/>
+<vertex x="49.784" y="9.017"/>
+<vertex x="49.784" y="12.827"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="43.815" y="3.683"/>
+<vertex x="43.815" y="-3.175"/>
+<vertex x="49.784" y="-3.175"/>
+<vertex x="49.784" y="3.683"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="44.45" y="-8.763"/>
+<vertex x="44.45" y="-18.288"/>
+<vertex x="49.784" y="-18.288"/>
+<vertex x="49.784" y="-8.763"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="36.195" y="-12.7"/>
+<vertex x="36.195" y="-18.288"/>
+<vertex x="39.624" y="-18.288"/>
+<vertex x="39.624" y="-12.7"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="38.989" y="38.354"/>
+<vertex x="38.989" y="31.877"/>
+<vertex x="49.784" y="31.877"/>
+<vertex x="49.784" y="38.354"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="38.735" y="38.354"/>
+<vertex x="38.735" y="31.623"/>
+<vertex x="49.784" y="31.623"/>
+<vertex x="49.784" y="38.354"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="35.814" y="-18.288"/>
+<vertex x="49.784" y="-18.288"/>
+<vertex x="49.784" y="12.954"/>
+<vertex x="41.783" y="12.954"/>
+<vertex x="41.783" y="-10.541"/>
+<vertex x="35.814" y="-10.541"/>
+</polygon>
 </signal>
 <signal name="+15V">
 <contactref element="J1" pad="2"/>
 <contactref element="J1" pad="4"/>
-<contactref element="Q1" pad="2"/>
-<contactref element="Q2" pad="2"/>
 <contactref element="C2" pad="1"/>
 <contactref element="X1" pad="4"/>
 <wire x1="31.2631" y1="34.265" x2="27.178" y2="34.265" width="1.524" layer="1"/>
 <wire x1="27.178" y1="34.265" x2="19.59375625" y2="34.265" width="1.524" layer="1"/>
 <wire x1="27.178" y1="35.472" x2="27.178" y2="34.265" width="1.016" layer="1"/>
-<wire x1="31.2631" y1="34.265" x2="33.274" y2="32.2541" width="0.8128" layer="16"/>
-<wire x1="35.41" y1="19.558" x2="35.476" y2="19.624" width="0.8128" layer="1"/>
-<wire x1="33.274" y1="32.2541" x2="33.274" y2="24.13" width="0.8128" layer="16"/>
-<wire x1="33.274" y1="24.13" x2="33.274" y2="20.574" width="0.8128" layer="16"/>
-<wire x1="33.274" y1="20.574" x2="34.29" y2="19.558" width="0.8128" layer="16"/>
-<via x="34.29" y="19.558" extent="1-16" drill="0.35"/>
-<wire x1="34.29" y1="19.558" x2="35.41" y2="19.558" width="0.8128" layer="1"/>
-<via x="33.274" y="24.13" extent="1-16" drill="0.35"/>
-<wire x1="35.41" y1="24.13" x2="33.274" y2="24.13" width="0.8128" layer="1"/>
-<wire x1="35.476" y1="24.196" x2="35.41" y2="24.13" width="0.8128" layer="1"/>
 <wire x1="19.59375625" y1="34.265" x2="15.68075625" y2="30.352" width="1.524" layer="1"/>
 <wire x1="15.68075625" y1="30.352" x2="15.42675625" y2="30.352" width="1.016" layer="1"/>
 <wire x1="15.93475625" y1="30.352" x2="15.42675625" y2="30.352" width="1.016" layer="1"/>
@@ -1840,6 +1875,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="27.178" y1="31.33" x2="27.178" y2="32.258" width="1.016" layer="1"/>
 <wire x1="20.828" y1="32.258" x2="14.922" y2="26.352" width="1.016" layer="1"/>
 <wire x1="14.922" y1="26.352" x2="11.459" y2="26.352" width="1.016" layer="1"/>
+<contactref element="Q1" pad="2"/>
+<contactref element="Q2" pad="2"/>
+<wire x1="36.3431" y1="34.265" x2="33.655" y2="31.5769" width="0.8128" layer="16"/>
+<wire x1="33.655" y1="20.32" x2="34.29" y2="19.685" width="0.8128" layer="16"/>
+<via x="34.29" y="19.685" extent="1-16" drill="0.35"/>
+<wire x1="34.29" y1="19.685" x2="34.351" y2="19.624" width="0.8128" layer="1"/>
+<wire x1="34.351" y1="19.624" x2="35.476" y2="19.624" width="0.8128" layer="1"/>
+<wire x1="33.655" y1="31.5769" x2="33.655" y2="24.13" width="0.8128" layer="16"/>
+<wire x1="33.655" y1="24.13" x2="33.655" y2="20.32" width="0.8128" layer="16"/>
+<via x="33.655" y="24.13" extent="1-16" drill="0.35"/>
+<wire x1="33.655" y1="24.13" x2="35.41" y2="24.13" width="0.8128" layer="1"/>
+<wire x1="35.41" y1="24.13" x2="35.476" y2="24.196" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$1" class="1">
 <contactref element="J1" pad="9"/>
@@ -1960,6 +2007,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="23,1,4714b824bce443d4"/>
+<approved hash="23,1,4e399ed781e85106"/>
+<approved hash="23,1,2c4d3ba33ae22d0c"/>
+<approved hash="23,1,19b9cc57c3691687"/>
+<approved hash="23,1,bc06cbe8d4e8a306"/>
+<approved hash="23,1,f160025003d1f0e1"/>
+<approved hash="23,1,0c239a5b981b0e63"/>
+<approved hash="23,1,4d2a7fd27cdd4e25"/>
+<approved hash="23,1,92b2275c262093ce"/>
+<approved hash="23,1,615ce3aee3ce613c"/>
+<approved hash="23,1,035ee4b0e0b0075e"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
