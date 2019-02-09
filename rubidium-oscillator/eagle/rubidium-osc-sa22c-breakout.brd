@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="2" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="2" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1998,6 +1998,84 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="46.482" y1="18.034" x2="45.466" y2="18.034" width="0.8128" layer="1"/>
 <wire x1="45.466" y1="18.034" x2="42.926" y2="20.574" width="0.8128" layer="1"/>
 <wire x1="42.926" y1="20.574" x2="42.252" y2="20.574" width="0.8128" layer="1"/>
+</signal>
+<signal name="N$15">
+<via x="15.24" y="22.606" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$16">
+<via x="20.574" y="22.606" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$11">
+<via x="25.908" y="2.54" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$14">
+<via x="30.226" y="2.54" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$17">
+<via x="34.29" y="2.54" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$18">
+<via x="25.146" y="10.16" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$19">
+<via x="29.972" y="10.16" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$20">
+<via x="34.29" y="10.16" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$21">
+<via x="9.144" y="22.352" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$24">
+<via x="2.54" y="32.004" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$25">
+<via x="2.54" y="26.416" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$26">
+<via x="2.54" y="6.096" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$27">
+<via x="5.08" y="36.068" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$28">
+<via x="10.16" y="36.068" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$29">
+<via x="5.588" y="2.54" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$30">
+<via x="12.7" y="2.54" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$31">
+<via x="20.32" y="2.54" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$32">
+<via x="7.62" y="11.684" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$33">
+<via x="12.7" y="10.16" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$34">
+<via x="20.32" y="10.16" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$35">
+<via x="17.78" y="15.24" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$36">
+<via x="28.448" y="16.256" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$37">
+<via x="25.4" y="14.732" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$22">
+<via x="25.908" y="25.4" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$23">
+<via x="39.116" y="2.54" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$38">
+<via x="39.116" y="10.16" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
