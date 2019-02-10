@@ -96,7 +96,7 @@
 <text x="31.496" y="-17.272" size="0.8128" layer="25" font="vector" ratio="15" rot="R180">OUT</text>
 <text x="33.528" y="-17.272" size="0.8128" layer="25" font="vector" ratio="15" rot="R180">IN</text>
 <text x="28.448" y="-12.7" size="1.4224" layer="25" font="vector" ratio="15" rot="SR0">UART</text>
-<text x="43.942" y="4.318" size="1.4224" layer="25" font="vector" ratio="15" rot="SR90">FACMOS</text>
+<text x="43.942" y="2.032" size="1.4224" layer="25" font="vector" ratio="15" rot="SR90">ACMOS OUT</text>
 <text x="43.942" y="-9.398" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">1PPS.OUT</text>
 <text x="37.592" y="-12.446" size="1.016" layer="25" font="vector" ratio="15" rot="SR0">1PPS.IN</text>
 <text x="44.45" y="27.432" size="1.27" layer="25" font="vector" ratio="15" rot="R90">+</text>
