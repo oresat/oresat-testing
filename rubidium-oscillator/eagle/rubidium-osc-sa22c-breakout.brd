@@ -2026,12 +2026,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="58.928" y="66.04"/>
 <vertex x="0" y="66.04"/>
 </polygon>
-<via x="56.388" y="24.384" extent="1-16" drill="0.254"/>
-<via x="56.388" y="19.304" extent="1-16" drill="0.254"/>
-<via x="56.388" y="33.02" extent="1-16" drill="0.254"/>
-<via x="56.388" y="38.1" extent="1-16" drill="0.254"/>
-<via x="56.388" y="10.668" extent="1-16" drill="0.254"/>
-<via x="56.388" y="5.588" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="+15V">
 <contactref element="J1" pad="2"/>
