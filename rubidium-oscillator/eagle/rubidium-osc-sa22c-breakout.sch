@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -8947,12 +8947,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="177.8" y="25.4" size="3.81" layer="97">Rubidium Oscillator SA.22c Breakout</text>
+<text x="177.8" y="25.4" size="3.81" layer="94">Rubidium Oscillator SA.22c Breakout</text>
 <text x="157.48" y="64.77" size="1.778" layer="97">GREEN LED ~ 3.4V
 R = 560 for ~3mA</text>
 <text x="157.48" y="74.93" size="1.778" layer="97">RED LED ~ 2.1V
 R = 1k for ~3mA</text>
 <text x="91.44" y="48.26" size="1.778" layer="97">NOTE: Service and Lock are active low.</text>
+<text x="264.16" y="6.35" size="3.81" layer="94">1</text>
 </plain>
 <instances>
 <instance part="X1" gate="-1" x="119.38" y="175.26" smashed="yes">
