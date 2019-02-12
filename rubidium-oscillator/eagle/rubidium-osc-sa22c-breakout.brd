@@ -110,10 +110,10 @@
 <text x="58.928" y="63.246" size="1.27" layer="21" rot="R90">+</text>
 <text x="58.928" y="58.166" size="1.27" layer="21" rot="R90">+</text>
 <text x="58.928" y="53.086" size="1.27" layer="21" rot="R90">+</text>
-<text x="53.34" y="6.35" size="0.8128" layer="21" rot="R90">1PPS.OUT</text>
-<text x="53.34" y="33.782" size="0.8128" layer="21" rot="R90">1PPS.OUT</text>
-<text x="53.34" y="19.304" size="0.8128" layer="21" rot="R90">ACMOS.OUT</text>
-<text x="41.148" y="1.778" size="1.27" layer="21" rot="R90">Rubidium Osc. SA.22c
+<text x="53.34" y="3.81" size="1.27" layer="21" rot="R90">1PPS.OUT</text>
+<text x="53.34" y="31.242" size="1.27" layer="21" rot="R90">1PPS.OUT</text>
+<text x="53.34" y="16.51" size="1.27" layer="21" rot="R90">ACMOS.OUT</text>
+<text x="34.29" y="2.032" size="1.778" layer="21" ratio="10" rot="R90" align="top-left">Rubidium Osc. SA.22c
 Breakout Board
 2019-02-11
 KJ7AOG</text>
@@ -1738,21 +1738,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="X3" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" value="SMA-142-0701-801/806" x="58.928" y="21.844" smashed="yes" rot="R180">
 <attribute name="MF" value="JOHNSON COMPONENTS" x="17.018" y="32.004" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="142-0701-801" x="17.018" y="32.004" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="53.34" y="16.129" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="51.562" y="16.5354" size="1.27" layer="25" rot="R90"/>
 <attribute name="OC_FARNELL" value="1608592" x="17.018" y="32.004" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="90F2624" x="17.018" y="32.004" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="X4" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" value="SMA-142-0701-801/806" x="58.928" y="8.128" smashed="yes" rot="R180">
 <attribute name="MF" value="JOHNSON COMPONENTS" x="17.018" y="37.338" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="142-0701-801" x="17.018" y="37.338" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="53.34" y="2.413" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="51.562" y="3.8354" size="1.27" layer="25" rot="R90"/>
 <attribute name="OC_FARNELL" value="1608592" x="17.018" y="37.338" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="90F2624" x="17.018" y="37.338" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="X5" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" value="SMA-142-0701-801/806" x="58.928" y="35.56" smashed="yes" rot="R180">
 <attribute name="MF" value="JOHNSON COMPONENTS" x="17.018" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="142-0701-801" x="17.018" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="53.34" y="29.845" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="51.562" y="31.2674" size="1.27" layer="25" rot="R90"/>
 <attribute name="OC_FARNELL" value="1608592" x="17.018" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="90F2624" x="17.018" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -1787,12 +1787,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C1" pad="2"/>
 <contactref element="X1" pad="1"/>
 <contactref element="X1" pad="2"/>
-<polygon width="0.1524" layer="1">
-<vertex x="0" y="0"/>
-<vertex x="58.928" y="0"/>
-<vertex x="58.928" y="66.04"/>
-<vertex x="0" y="66.04"/>
-</polygon>
 <polygon width="0.1524" layer="16">
 <vertex x="0" y="0"/>
 <vertex x="58.928" y="0"/>
@@ -2004,10 +1998,40 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="42.164" y="1.524" extent="1-16" drill="0.254"/>
 <via x="39.116" y="1.524" extent="1-16" drill="0.254"/>
 <via x="36.068" y="1.524" extent="1-16" drill="0.254"/>
-<via x="57.404" y="14.732" extent="1-16" drill="0.254"/>
-<via x="54.356" y="14.732" extent="1-16" drill="0.254"/>
-<via x="57.404" y="28.956" extent="1-16" drill="0.254"/>
-<via x="54.356" y="28.956" extent="1-16" drill="0.254"/>
+<via x="57.404" y="14.986" extent="1-16" drill="0.254"/>
+<via x="54.356" y="14.986" extent="1-16" drill="0.254"/>
+<via x="57.404" y="28.702" extent="1-16" drill="0.254"/>
+<via x="54.356" y="28.702" extent="1-16" drill="0.254"/>
+<polygon width="0.1524" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="58.928" y="0"/>
+<vertex x="58.928" y="6.096"/>
+<vertex x="54.102" y="6.096"/>
+<vertex x="52.578" y="7.62"/>
+<vertex x="52.578" y="8.636"/>
+<vertex x="54.102" y="10.16"/>
+<vertex x="58.928" y="10.16"/>
+<vertex x="58.928" y="19.812"/>
+<vertex x="53.848" y="19.812"/>
+<vertex x="52.578" y="21.082"/>
+<vertex x="52.578" y="22.352"/>
+<vertex x="54.102" y="23.876"/>
+<vertex x="58.928" y="23.876"/>
+<vertex x="58.928" y="33.528"/>
+<vertex x="54.102" y="33.528"/>
+<vertex x="52.578" y="35.052"/>
+<vertex x="52.578" y="36.068"/>
+<vertex x="54.102" y="37.592"/>
+<vertex x="58.928" y="37.592"/>
+<vertex x="58.928" y="66.04"/>
+<vertex x="0" y="66.04"/>
+</polygon>
+<via x="56.388" y="24.384" extent="1-16" drill="0.254"/>
+<via x="56.388" y="19.304" extent="1-16" drill="0.254"/>
+<via x="56.388" y="33.02" extent="1-16" drill="0.254"/>
+<via x="56.388" y="38.1" extent="1-16" drill="0.254"/>
+<via x="56.388" y="10.668" extent="1-16" drill="0.254"/>
+<via x="56.388" y="5.588" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="+15V">
 <contactref element="J1" pad="2"/>
