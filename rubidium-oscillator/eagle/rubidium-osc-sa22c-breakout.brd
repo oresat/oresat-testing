@@ -92,25 +92,24 @@
 <wire x1="58.928" y1="1.016" x2="58.928" y2="65.024" width="0.1524" layer="20"/>
 <wire x1="58.928" y1="65.024" x2="57.912" y2="66.04" width="0.1524" layer="20" curve="90"/>
 <wire x1="31.496" y1="56.388" x2="31.496" y2="15.748" width="0.1524" layer="51"/>
-<text x="33.274" y="57.658" size="1.27" layer="51" rot="R270">15V</text>
-<text x="39.116" y="57.658" size="1.27" layer="51" rot="R270">5V</text>
-<text x="54.102" y="60.706" size="0.8128" layer="51" rot="R90">F.CTRL</text>
-<text x="54.102" y="55.88" size="0.8128" layer="51" rot="R90">SRVC</text>
-<text x="54.102" y="50.8" size="0.8128" layer="51" rot="R90">LOCK</text>
-<wire x1="58.166" y1="49.784" x2="51.054" y2="49.784" width="0.254" layer="51"/>
-<wire x1="51.054" y1="49.784" x2="51.054" y2="42.164" width="0.254" layer="51"/>
-<wire x1="51.054" y1="42.164" x2="58.166" y2="42.164" width="0.254" layer="51"/>
-<wire x1="58.166" y1="42.164" x2="58.166" y2="49.784" width="0.254" layer="51"/>
-<text x="52.832" y="43.688" size="1.27" layer="51" rot="R90">UART</text>
-<text x="54.102" y="48.006" size="0.8128" layer="51" rot="R90">IN</text>
-<text x="54.102" y="44.704" size="0.8128" layer="51" rot="R90">OUT</text>
-<text x="58.928" y="63.246" size="1.27" layer="51" rot="R90">+</text>
-<text x="58.928" y="58.166" size="1.27" layer="51" rot="R90">+</text>
-<text x="58.928" y="53.086" size="1.27" layer="51" rot="R90">+</text>
-<text x="53.34" y="6.35" size="0.8128" layer="51" rot="R90">1PPS.OUT</text>
-<text x="53.34" y="33.782" size="0.8128" layer="51" rot="R90">1PPS.OUT</text>
-<text x="53.34" y="19.304" size="0.8128" layer="51" rot="R90">ACMOS.OUT</text>
-<text x="41.148" y="1.778" size="1.27" layer="51" rot="R90">Rubidium Osc. SA.22c
+<text x="33.274" y="57.658" size="1.27" layer="21" rot="R270">15V</text>
+<text x="39.116" y="57.658" size="1.27" layer="21" rot="R270">5V</text>
+<text x="54.102" y="60.706" size="0.8128" layer="21" rot="R90">F.CTRL</text>
+<text x="54.102" y="55.88" size="0.8128" layer="21" rot="R90">SRVC</text>
+<text x="54.102" y="50.8" size="0.8128" layer="21" rot="R90">LOCK</text>
+<wire x1="57.404" y1="49.784" x2="51.054" y2="49.784" width="0.254" layer="21"/>
+<wire x1="51.054" y1="49.784" x2="51.054" y2="42.164" width="0.254" layer="21"/>
+<wire x1="51.054" y1="42.164" x2="57.404" y2="42.164" width="0.254" layer="21"/>
+<text x="52.832" y="43.688" size="1.27" layer="21" rot="R90">UART</text>
+<text x="54.102" y="48.006" size="0.8128" layer="21" rot="R90">IN</text>
+<text x="54.102" y="44.704" size="0.8128" layer="21" rot="R90">OUT</text>
+<text x="58.928" y="63.246" size="1.27" layer="21" rot="R90">+</text>
+<text x="58.928" y="58.166" size="1.27" layer="21" rot="R90">+</text>
+<text x="58.928" y="53.086" size="1.27" layer="21" rot="R90">+</text>
+<text x="53.34" y="6.35" size="0.8128" layer="21" rot="R90">1PPS.OUT</text>
+<text x="53.34" y="33.782" size="0.8128" layer="21" rot="R90">1PPS.OUT</text>
+<text x="53.34" y="19.304" size="0.8128" layer="21" rot="R90">ACMOS.OUT</text>
+<text x="41.148" y="1.778" size="1.27" layer="21" rot="R90">Rubidium Osc. SA.22c
 Breakout Board
 2019-02-11
 KJ7AOG</text>
