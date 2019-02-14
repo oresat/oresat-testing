@@ -37,4 +37,4 @@ The SA.22c provides a Samtec 2.00 mm 2x9 socket for mating with the Samtec heade
   * RF out: ACMOS - 10 MHz
   * 1 PPS: in and out
 
-Note: Lock and service outputs on the SA.22c are active low.  The breakout board inverts these and is ready to drive low voltage LEDs or lamps using a [p-channel MOSFET](https://www.digikey.com/product-detail/en/diodes-incorporated/ZXMP10A13FTA/ZXMP10A13FCT-ND/560670).  Resistors R1 and R2 have been chosen to drive a standard green and red LEDs with 3 mA.
+Note: Lock and service outputs on the SA.22c are active low.  The breakout board inverts these and is ready to drive low voltage LEDs or lamps using a [p-channel MOSFET](https://www.digikey.com/product-detail/en/diodes-incorporated/ZXMP10A13FTA/ZXMP10A13FCT-ND/560670).  Resistors R1 and R2 have been chosen to drive a 2.3V LED with 10mA.
