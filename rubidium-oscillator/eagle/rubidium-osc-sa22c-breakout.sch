@@ -8933,9 +8933,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="FDN360P" device="" package3d_urn="urn:adsk.eagle:package:29529/2" value="ZXMP10A13F"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="560"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="270"/>
 <part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="FDN360P" device="" package3d_urn="urn:adsk.eagle:package:29529/2" value="ZXMP10A13F"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="270"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8948,10 +8948,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <sheet>
 <plain>
 <text x="177.8" y="25.4" size="3.81" layer="94">Rubidium Oscillator SA.22c Breakout</text>
-<text x="157.48" y="64.77" size="1.778" layer="97">GREEN LED ~ 3.4V
-R = 560 for ~3mA</text>
-<text x="157.48" y="74.93" size="1.778" layer="97">RED LED ~ 2.1V
-R = 1k for ~3mA</text>
+<text x="157.48" y="64.77" size="1.778" layer="97">Bivar 5mm Green Diffuse LED (MPR5GD)
+Vf = 2.3V, R = 270 for 10mA</text>
+<text x="157.48" y="74.93" size="1.778" layer="97">Bivar 5mm Red Diffuse LED (MPR5RD)
+Vf = 2.3V, R = 270 for 10mA</text>
 <text x="91.44" y="48.26" size="1.778" layer="97">NOTE: Service and Lock are active low.</text>
 <text x="264.16" y="6.35" size="3.81" layer="94">1</text>
 </plain>
