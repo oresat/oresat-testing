@@ -1,2 +1,14 @@
-*.*#*
+# jupyter checkpoints
+.ipynb_checkpoints/*
 
+# SW backup files
+~$*
+
+# Windows thumbnails, presumably...
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints
+
+# R history
+.Rhistory
