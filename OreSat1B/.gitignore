@@ -1,0 +1,20 @@
+# jupyter checkpoints
+.ipynb_checkpoints/*
+
+# SW backup files
+~$*
+
+# Windows thumbnails, presumably...
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints
+
+# R history
+.Rhistory
+
+# STEP and Parasolid files
+OreSat.STEP
+OreSat.x_t
+OreSat0.STEP
+OreSat0.x_t
