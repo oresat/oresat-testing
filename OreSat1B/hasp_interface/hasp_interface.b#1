@@ -4705,15 +4705,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="-9.2" y="-71.25" size="0.5" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="-9.2" y="-73.55" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="D2" library="D-0402-package" package=".0402-B-NOSILK-DIODE" value="1N4448HLP-7" x="-8.4" y="-75.8" smashed="yes">
-<attribute name="DIS" value="Digi-Key" x="-8.4" y="-75.8" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1N4448HLPDICT-ND" x="-8.4" y="-75.8" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Diodes Inc" x="-8.4" y="-75.8" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="1N4448HLP-7" x="-8.4" y="-75.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-8.4" y="-75.8" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="NAME" x="-9.2" y="-75.25" size="0.8" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="-9.2" y="-78.42" size="0.8" layer="27" font="vector" ratio="15"/>
-</element>
 </elements>
 <signals>
 <signal name="!SHUTDOWN">
@@ -4755,8 +4746,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="21.9" y1="76.6" x2="21.9" y2="77.1" width="0.3" layer="1"/>
 <contactref element="CF1" pad="2"/>
 <contactref element="CF1" pad="1"/>
-<contactref element="D2" pad="C"/>
-<wire x1="8.000003125" y1="59.36" x2="-7.9" y2="-75.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VSOLAR">
 <polygon width="0.1524" layer="1" isolate="0.2" thermals="no">
@@ -8077,6 +8066,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="+30VDC">
 <contactref element="U2" pad="10"/>
 <contactref element="U2" pad="2"/>
+<contactref element="U2" pad="9"/>
 <contactref element="EDAC" pad="3"/>
 <contactref element="EDAC" pad="1"/>
 <contactref element="EDAC" pad="4"/>
@@ -8084,8 +8074,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="-5.43" y1="-59.87" x2="-7.97" y2="-59.87" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.97" y1="-57.33" x2="-7.97" y2="-59.87" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.43" y1="-57.33" x2="-5.43" y2="-59.87" width="0" layer="19" extent="1-1"/>
-<wire x1="1.9237" y1="-7.59835" x2="-5.43" y2="-57.33" width="0" layer="19" extent="1-1"/>
-<wire x1="3.6763" y1="-7.59835" x2="1.9237" y2="-7.59835" width="0" layer="19" extent="1-1"/>
+<wire x1="3.6763" y1="-8.1" x2="-5.43" y2="-57.33" width="0" layer="19" extent="1-1"/>
+<wire x1="3.6763" y1="-7.59835" x2="3.6763" y2="-8.1" width="0" layer="19" extent="1-1"/>
+<wire x1="1.9237" y1="-7.59835" x2="3.6763" y2="-7.59835" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TURNSTILEFIRE-(DISCRETE1)">
 <contactref element="R3" pad="2"/>
@@ -8136,11 +8127,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="1.2" y1="-29.1" x2="-4.5" y2="-44.3" width="0" layer="19" extent="1-1"/>
 <wire x1="1.9237" y1="-8.1" x2="1.2" y2="-29.1" width="0" layer="19" extent="1-1"/>
 <wire x1="2.8" y1="-6.725225" x2="1.9237" y2="-8.1" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$8">
-<contactref element="U2" pad="9"/>
-<contactref element="D2" pad="A"/>
-<wire x1="3.6763" y1="-8.1" x2="-8.9" y2="-75.8" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
