@@ -4,6 +4,12 @@
 # SW backup files
 ~$*
 
+# EAGLE temporary files
+*.*#*
+*.swp
+*.swo
+*.scr
+
 # Windows thumbnails, presumably...
 Thumbs.db
 
