@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -9871,6 +9871,46 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 </library>
 <library name="J-Molex-043045XXXX-Dual-Row-Connector">
 <packages>
+<package name="0430452012">
+<pad name="1" x="13.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
+<pad name="2" x="10.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
+<pad name="3" x="7.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
+<pad name="4" x="4.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
+<pad name="5" x="1.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
+<pad name="6" x="-1.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
+<pad name="7" x="-4.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
+<pad name="8" x="-7.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
+<pad name="9" x="-10.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
+<pad name="10" x="-13.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
+<pad name="11" x="13.5" y="1.5" drill="1.02" shape="offset" rot="R90"/>
+<pad name="12" x="10.5" y="1.5" drill="1.02" shape="offset" rot="R90"/>
+<pad name="13" x="7.5" y="1.5" drill="1.02" shape="offset" rot="R90"/>
+<pad name="14" x="4.5" y="1.5" drill="1.02" shape="offset" rot="R90"/>
+<pad name="15" x="1.5" y="1.5" drill="1.02" shape="offset" rot="R90"/>
+<pad name="16" x="-1.5" y="1.5" drill="1.02" shape="offset" rot="R90"/>
+<pad name="17" x="-4.5" y="1.5" drill="1.02" shape="offset" rot="R90"/>
+<pad name="18" x="-7.5" y="1.5" drill="1.02" shape="offset" rot="R90"/>
+<pad name="19" x="-10.5" y="1.5" drill="1.02" shape="offset" rot="R90"/>
+<pad name="20" x="-13.5" y="1.5" drill="1.02" shape="offset" rot="R90"/>
+<wire x1="-17.07" y1="3.4" x2="17.07" y2="3.4" width="0.127" layer="51"/>
+<wire x1="17.07" y1="3.4" x2="17.07" y2="-3.97" width="0.127" layer="51"/>
+<wire x1="17.07" y1="-3.97" x2="-17.07" y2="-3.97" width="0.127" layer="51"/>
+<wire x1="-17.07" y1="-3.97" x2="-17.07" y2="3.4" width="0.127" layer="51"/>
+<wire x1="-17.07" y1="3.4" x2="-15.07" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-17.07" y1="3.4" x2="-17.07" y2="1.4" width="0.127" layer="21"/>
+<wire x1="17.07" y1="3.4" x2="15.07" y2="3.4" width="0.127" layer="21"/>
+<wire x1="17.07" y1="3.4" x2="17.07" y2="1.4" width="0.127" layer="21"/>
+<wire x1="17.07" y1="-1.97" x2="17.07" y2="-2.95" width="0.127" layer="21"/>
+<wire x1="17.07" y1="-2.95" x2="17.07" y2="-2.97" width="0.127" layer="21"/>
+<text x="17.71" y="2.78" size="0.635" layer="25" font="vector" ratio="20">&gt;Name</text>
+<wire x1="-15.07" y1="-3.97" x2="-17.07" y2="-3.97" width="0.127" layer="21"/>
+<wire x1="-17.07" y1="-3.97" x2="-17.07" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="15.07" y1="-3.97" x2="17.07" y2="-3.97" width="0.127" layer="21"/>
+<wire x1="17.07" y1="-3.97" x2="17.07" y2="-2.97" width="0.127" layer="21"/>
+<text x="18.22" y="-3.08" size="1.27" layer="21">1</text>
+<hole x="16.5" y="2.44" drill="1.02"/>
+<hole x="-16.5" y="2.44" drill="1.02"/>
+</package>
 <package name="0430452000">
 <pad name="1" x="13.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
 <pad name="2" x="10.5" y="-1.5" drill="1.02" shape="offset" rot="R270"/>
@@ -9947,7 +9987,34 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <gate name="G$1" symbol="2X10CONNECTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0430452000">
+<device name="RIGHTANGLE" package="0430452000">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VERTICAL" package="0430452012">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -10281,7 +10348,7 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 </part>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U3" library="U-Murata-OKI-T36-W40-DC-DC-Converter" deviceset="OKI-T/36W-W40" device=""/>
-<part name="J3" library="J-Molex-043045XXXX-Dual-Row-Connector" deviceset="MOLEX-43045XXXX" device=""/>
+<part name="J3" library="J-Molex-043045XXXX-Dual-Row-Connector" deviceset="MOLEX-43045XXXX" device="VERTICAL"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
