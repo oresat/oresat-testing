@@ -1,0 +1,30 @@
+--- a/hdlc.c
++++ b/hdlc.c
+@@ -279,23 +279,13 @@ static void ax25_disp_packet(struct demod_state *s, unsigned char *bp, unsigned
+         }
+         verbprintf(0, " pid=%02X\n", *bp++);
+         len--;
+-        j = 0;
++        bp-=16;
++        len+=16;
+         while (len) {
+-                i = *bp++;
+-                if ((i >= 32) && (i < 128)) 
+-                        verbprintf(0, "%c",i);
+-                else if (i == 13) {
+-                        if (j) 
+-                                verbprintf(0, "\n");
+-                        j = 0;
+-                } else 
+-                        verbprintf(0, ".");
+-                if (i >= 32) 
+-                        j = 1;
++                verbprintf(0, "%02x", *bp++);
+                 len--;
+         }
+-        if (j) 
+-                verbprintf(0, "\n");
++        verbprintf(0, "\n");
+ }
+ 
+ /* ---------------------------------------------------------------------- */
