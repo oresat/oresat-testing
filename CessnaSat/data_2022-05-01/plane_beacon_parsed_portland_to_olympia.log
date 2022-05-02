@@ -1,0 +1,228 @@
+
+Using device 0: Generic RTL2832U OEM
+Detached kernel driver
+Found Rafael Micro R820T tuner
+Tuner gain set to automatic.
+Tuner error set to 49 ppm.
+Tuned to 436753575 Hz.
+Oversampling input by: 46x.
+Oversampling output by: 1x.
+Buffer size: 8.08ms
+Exact sample rate is: 1014300.020041 Hz
+Allocating 15 zero-copy buffers
+Sampling at 1014300 S/s.
+Output at 22050 Hz.
+2022-05-01 12:02:59 L_valid:502 L_rssi:--256 U_valid:100 U_rssi:--256 P1VBatt:7481
+^CSignal caught, exiting!
+
+User cancel, exiting...
+Reattached kernel driver
+Signal caught, exiting!
+~/tools/multimon-ng/build$ 
+~/tools/multimon-ng/build$ 
+~/tools/multimon-ng/build$ ./beacon2.sh 
+Found 1 device(s):
+  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+
+Using device 0: Generic RTL2832U OEM
+Detached kernel driver
+Found Rafael Micro R820T tuner
+Tuner gain set to automatic.
+Tuner error set to 49 ppm.
+Tuned to 436753575 Hz.
+Oversampling input by: 46x.
+Oversampling output by: 1x.
+Buffer size: 8.08ms
+Exact sample rate is: 1014300.020041 Hz
+Allocating 15 zero-copy buffers
+Sampling at 1014300 S/s.
+Output at 22050 Hz.
+2022-05-01 13:13:32 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7437
+2022-05-01 13:14:02 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7443
+2022-05-01 13:14:33 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7445
+2022-05-01 13:15:03 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7441
+2022-05-01 13:15:34 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7442
+2022-05-01 13:16:04 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7440
+2022-05-01 13:16:34 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7441
+2022-05-01 13:17:04 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7440
+2022-05-01 13:17:35 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7436
+2022-05-01 13:18:05 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7442
+2022-05-01 13:18:35 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7435
+2022-05-01 13:19:06 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7438
+                                        ^[[5~^[[5~2022-05-01 13:19:36 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7435
+2022-05-01 13:20:06 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7436
+2022-05-01 13:20:37 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7436
+^CSignal caught, exiting!
+
+User cancel, exiting...
+Reattached kernel driver
+Signal caught, exiting!
+~/tools/multimon-ng/build$ ll
+total 260K
+-rwxr-xr-x 1 andrew andrew  952 May  1 09:35 beacon2.sh
+-rw-r--r-- 1 andrew andrew  22K May  1 13:20 beacon.log
+-rwxr-xr-x 1 andrew andrew  787 May  1 08:59 beacon.sh
+-rw-r--r-- 1 andrew andrew  28K May  1 02:02 CMakeCache.txt
+drwxr-xr-x 5 andrew andrew 4.0K May  1 02:02 CMakeFiles
+-rw-r--r-- 1 andrew andrew 3.1K May  1 02:02 cmake_install.cmake
+-rw-r--r-- 1 andrew andrew  36K May  1 02:02 Makefile
+-rwxr-xr-x 1 andrew andrew 150K May  1 02:02 multimon-ng
+~/tools/multimon-ng/build$ ll
+total 260K
+-rwxr-xr-x 1 andrew andrew  952 May  1 09:35 beacon2.sh
+-rw-r--r-- 1 andrew andrew  22K May  1 13:20 beacon.log
+-rwxr-xr-x 1 andrew andrew  787 May  1 08:59 beacon.sh
+-rw-r--r-- 1 andrew andrew  28K May  1 02:02 CMakeCache.txt
+drwxr-xr-x 5 andrew andrew 4.0K May  1 02:02 CMakeFiles
+-rw-r--r-- 1 andrew andrew 3.1K May  1 02:02 cmake_install.cmake
+-rw-r--r-- 1 andrew andrew  36K May  1 02:02 Makefile
+-rwxr-xr-x 1 andrew andrew 150K May  1 02:02 multimon-ng
+~/tools/multimon-ng/build$ ./beacon2.sh 
+Found 1 device(s):
+  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+
+Using device 0: Generic RTL2832U OEM
+Detached kernel driver
+Found Rafael Micro R820T tuner
+Tuner gain set to automatic.
+Tuner error set to 49 ppm.
+Tuned to 436753575 Hz.
+Oversampling input by: 46x.
+Oversampling output by: 1x.
+Buffer size: 8.08ms
+Exact sample rate is: 1014300.020041 Hz
+Allocating 15 zero-copy buffers
+Sampling at 1014300 S/s.
+Output at 22050 Hz.
+2022-05-01 13:21:07 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7435
+2022-05-01 13:21:37 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7437
+2022-05-01 13:22:08 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7432
+2022-05-01 13:22:38 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7432
+2022-05-01 13:23:08 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7437
+2022-05-01 13:23:39 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7435
+2022-05-01 13:24:09 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7436
+2022-05-01 13:24:39 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7435
+2022-05-01 13:25:10 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7436
+2022-05-01 13:25:40 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7432
+2022-05-01 13:26:10 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7433
+2022-05-01 13:26:41 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7433
+2022-05-01 13:27:11 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7431
+2022-05-01 13:27:41 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7435
+2022-05-01 13:28:12 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7435
+2022-05-01 13:28:42 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-127 P1VBatt:7431
+2022-05-01 13:29:12 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7433
+2022-05-01 13:29:43 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7438
+2022-05-01 13:30:13 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7433
+2022-05-01 13:30:43 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7430
+2022-05-01 13:31:14 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7436
+2022-05-01 13:31:44 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7430
+2022-05-01 13:32:14 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7433
+2022-05-01 13:32:45 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7430
+2022-05-01 13:33:15 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7437
+2022-05-01 13:33:45 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7435
+2022-05-01 13:34:16 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7436
+2022-05-01 13:34:46 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7432
+2022-05-01 13:35:16 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7431
+2022-05-01 13:35:47 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7430
+ 2022-05-01 13:36:17 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7432
+2022-05-01 13:36:47 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:37:18 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7430
+2022-05-01 13:37:48 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:38:18 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7430
+2022-05-01 13:38:49 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7431
+2022-05-01 13:39:19 L_valid:573 L_rssi:-128 U_valid:100 U_rssi:-114 P1VBatt:7430
+2022-05-01 13:39:42 L_valid:573 L_rssi:-115 U_valid:100 U_rssi:-114 P1VBatt:7431
+2022-05-01 13:39:48 L_valid:574 L_rssi:-117 U_valid:100 U_rssi:-114 P1VBatt:7431
+2022-05-01 13:39:52 L_valid:575 L_rssi:-117 U_valid:100 U_rssi:-114 P1VBatt:7433
+2022-05-01 13:39:57 L_valid:576 L_rssi:-117 U_valid:100 U_rssi:-114 P1VBatt:7433
+2022-05-01 13:40:17 L_valid:577 L_rssi:-117 U_valid:100 U_rssi:-114 P1VBatt:7433
+2022-05-01 13:40:27 L_valid:578 L_rssi:-116 U_valid:100 U_rssi:-114 P1VBatt:7430
+2022-05-01 13:40:47 L_valid:579 L_rssi:-119 U_valid:100 U_rssi:-114 P1VBatt:7435
+2022-05-01 13:41:07 L_valid:580 L_rssi:-121 U_valid:100 U_rssi:-114 P1VBatt:7431
+2022-05-01 13:41:37 L_valid:581 L_rssi:-116 U_valid:100 U_rssi:-114 P1VBatt:7431
+2022-05-01 13:41:42 L_valid:582 L_rssi:-120 U_valid:100 U_rssi:-114 P1VBatt:7431
+2022-05-01 13:42:43 L_valid:583 L_rssi:-120 U_valid:100 U_rssi:-114 P1VBatt:7426
+2022-05-01 13:43:13 L_valid:583 L_rssi:-120 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 13:43:43 L_valid:583 L_rssi:-120 U_valid:100 U_rssi:-114 P1VBatt:7431
+2022-05-01 13:44:14 L_valid:583 L_rssi:-120 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:44:44 L_valid:583 L_rssi:-120 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:45:14 L_valid:583 L_rssi:-120 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:45:45 L_valid:583 L_rssi:-120 U_valid:100 U_rssi:-114 P1VBatt:7426
+2022-05-01 13:46:15 L_valid:583 L_rssi:-120 U_valid:100 U_rssi:-114 P1VBatt:7428
+2022-05-01 13:46:22 L_valid:583 L_rssi:-113 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 13:46:27 L_valid:584 L_rssi:-117 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 13:46:32 L_valid:585 L_rssi:-115 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:46:37 L_valid:586 L_rssi:-114 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:46:42 L_valid:587 L_rssi:-113 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:46:47 L_valid:588 L_rssi:-115 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:47:07 L_valid:589 L_rssi:-114 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:47:12 L_valid:590 L_rssi:-113 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 13:47:17 L_valid:591 L_rssi:-108 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 13:47:22 L_valid:592 L_rssi:-107 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:47:28 L_valid:593 L_rssi:-106 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:47:32 L_valid:594 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 13:47:37 L_valid:595 L_rssi:-112 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 13:47:42 L_valid:596 L_rssi:-108 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:47:47 L_valid:597 L_rssi:-108 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:47:52 L_valid:598 L_rssi:-111 U_valid:100 U_rssi:-114 P1VBatt:7426
+2022-05-01 13:47:58 L_valid:599 L_rssi:-106 U_valid:100 U_rssi:-114 P1VBatt:7426
+2022-05-01 13:48:03 L_valid:600 L_rssi:-108 U_valid:100 U_rssi:-114 P1VBatt:7426
+2022-05-01 13:48:07 L_valid:601 L_rssi:-108 U_valid:100 U_rssi:-114 P1VBatt:7426
+2022-05-01 13:48:12 L_valid:602 L_rssi:-107 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 13:48:17 L_valid:603 L_rssi:-108 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 13:48:22 L_valid:604 L_rssi:-108 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 13:48:27 L_valid:605 L_rssi:-112 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 13:48:33 L_valid:606 L_rssi:-113 U_valid:100 U_rssi:-114 P1VBatt:7421
+2022-05-01 13:48:42 L_valid:607 L_rssi:-111 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 13:48:47 L_valid:608 L_rssi:-113 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 13:49:27 L_valid:609 L_rssi:-112 U_valid:100 U_rssi:-114 P1VBatt:7418
+2022-05-01 13:49:32 L_valid:610 L_rssi:-112 U_valid:100 U_rssi:-114 P1VBatt:7426
+2022-05-01 13:49:37 L_valid:611 L_rssi:-108 U_valid:100 U_rssi:-114 P1VBatt:7426
+2022-05-01 13:49:42 L_valid:612 L_rssi:-111 U_valid:100 U_rssi:-114 P1VBatt:7420
+2022-05-01 13:49:47 L_valid:613 L_rssi:-112 U_valid:100 U_rssi:-114 P1VBatt:7420
+2022-05-01 13:49:53 L_valid:614 L_rssi:-111 U_valid:100 U_rssi:-114 P1VBatt:7425
+2022-05-01 13:49:57 L_valid:615 L_rssi:-109 U_valid:100 U_rssi:-114 P1VBatt:7425
+2022-05-01 13:50:02 L_valid:616 L_rssi:-111 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 13:50:07 L_valid:617 L_rssi:-112 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 13:50:28 L_valid:618 L_rssi:-113 U_valid:100 U_rssi:-114 P1VBatt:7420
+2022-05-01 13:50:47 L_valid:619 L_rssi:-109 U_valid:100 U_rssi:-114 P1VBatt:7430
+2022-05-01 13:50:52 L_valid:620 L_rssi:-118 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 13:50:58 L_valid:621 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 13:51:58 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 13:52:28 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7420
+2022-05-01 13:52:58 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7421
+2022-05-01 13:53:29 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 13:53:59 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7425
+2022-05-01 13:54:29 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7427
+2022-05-01 13:55:00 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7420
+2022-05-01 13:55:30 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7418
+2022-05-01 13:56:00 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7420
+2022-05-01 13:56:31 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7421
+2022-05-01 13:57:01 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7426
+2022-05-01 13:57:32 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 13:58:02 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 13:58:32 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7420
+2022-05-01 13:59:02 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7420
+2022-05-01 13:59:33 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 14:00:03 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 14:00:33 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7420
+2022-05-01 14:01:04 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7426
+2022-05-01 14:01:34 L_valid:622 L_rssi:-110 U_valid:100 U_rssi:-114 P1VBatt:7420
+2022-05-01 14:02:04 L_valid:622 L_rssi:-125 U_valid:100 U_rssi:-114 P1VBatt:7418
+2022-05-01 14:02:35 L_valid:622 L_rssi:-125 U_valid:100 U_rssi:-114 P1VBatt:7418
+2022-05-01 14:03:05 L_valid:622 L_rssi:-125 U_valid:100 U_rssi:-114 P1VBatt:7423
+2022-05-01 14:03:35 L_valid:622 L_rssi:-125 U_valid:100 U_rssi:-114 P1VBatt:7417
+2022-05-01 14:04:06 L_valid:622 L_rssi:-125 U_valid:100 U_rssi:-114 P1VBatt:7413
+2022-05-01 14:04:36 L_valid:622 L_rssi:-125 U_valid:100 U_rssi:-114 P1VBatt:7425
+2022-05-01 14:05:06 L_valid:622 L_rssi:-125 U_valid:100 U_rssi:-114 P1VBatt:7415
+2022-05-01 14:05:37 L_valid:622 L_rssi:-125 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 14:06:07 L_valid:622 L_rssi:-125 U_valid:100 U_rssi:-114 P1VBatt:7422
+2022-05-01 14:06:37 L_valid:622 L_rssi:-125 U_valid:100 U_rssi:-114 P1VBatt:7415
+2022-05-01 14:07:08 L_valid:622 L_rssi:-125 U_valid:100 U_rssi:-114 P1VBatt:7417
+^CSignal caught, exiting!
+
+User cancel, exiting...
+Reattached kernel driver
+Signal caught, exiting!
+~/tools/multimon-ng/build$ 
+
