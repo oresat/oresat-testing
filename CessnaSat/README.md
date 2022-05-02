@@ -37,3 +37,17 @@ Assuming you want to track `a1d296`, try this:
 ./plane_track.py a1d296 &
 tail -f a1d296.log
 ```
+
+### plane_oneshot.py
+When you figure out mid-flight that your plane is running a Mode-S transponder, not GPS enabled ADS-B...things might get a little fast and loose. This script takes latitude, longitude and altitude as arguments for a one-time update to the rotator. Similar dependencies to plane_track.py above.
+
+```bash
+./plane_oneshot.py <lat> <lon> <alt>
+```
+
+### fa_snarf.sh
+Most ADS-B sites with free tier API options don't have anywhere near the coverage of one particular flight tracking site. It would be rude to automate scraping said site without paying for API access, but manually pulling updates once in a while should be okay. Parsing is super fragile because it only needed to work for a couple hours. Depends on hxselect and family (`sudo apt install html-xml-utils`).
+
+```bash
+./fa_snarf.sh <tail_number>
+```
